@@ -1,13 +1,35 @@
+body{
+  background: gray;
+}
+
 .Stadium {
   width: 1000px;
   background-color: #6B8E23;
   height: 450px;
 }
 
-.arc1{
-
+.stadium2{
+  width: 900px;
+  height: 390px;
+  border: 4px solid white;
 }
 
+/*arco a la izquierda*/
+.arc1{
+position: absolute;
+width: 80px;
+height:200px;
+bottom: 310px;
+border: 5px solid white;
+outline: 1px solid red;
+}
+
+/*arco a la derecha*/
 .arc2{
-  
+  position: absolute;
+  left: 600px;
+  bottom: 310px;
+  width: 80px;
+  height:200px;
+  border: 5px solid white;
 }
