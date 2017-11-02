@@ -1,15 +1,16 @@
+/*Color principal: Celeste*/
 body{
   background: #87ceeb;
 }
 
-/*La cancha mas grade (El principal)*/
+/*La cancha principal)*/
 .Stadium {
   width: 1000px;
   background-color: #6B8E23;
   height: 450px;
 }
 
-/*el segundo stadio desbtro del primero ( se notara por el borde blanco interno)*/
+/*el segundo estadio dentro del primero ( se notara por el borde blanco interno)*/
 .stadium2{
   position: absolute;
   width: 900px;
@@ -58,10 +59,10 @@ border-left: none;
   position: relative;
   left: 490px;
   bottom: 190px;
-    width: 30px;
-    height:30px;
-    border-radius: 15px;
-    background-color: #f5f5dc;
+  width: 30px;
+  height:30px;
+  border-radius: 15px;
+  background-color: #f5f5dc;
 }
 
 /*Tercera Pelota ubicada a la izquierda de arc2*/
